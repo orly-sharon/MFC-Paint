@@ -1,0 +1,31 @@
+﻿Build started 18/01/2015 23:27:52.
+     1>Project "E:\לימודים\שנה ב\סמסטר א\2-DlgGDI 1\Dlg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Dlg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release/Dlg.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/Dlg.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg.cpp DlgDlg.cpp Figure.cpp
+         Dlg.cpp
+         DlgDlg.cpp
+         Figure.cpp
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Release\Dlg.res" Dlg.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/Dlg.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:".\Release\Dlg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/Dlg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\Dlg.lib" /MACHINE:X86 .\Release\Dlg.res
+         .\Release/Dlg.obj
+         .\Release/DlgDlg.obj
+         .\Release/Figure.obj
+         .\Release/StdAfx.obj
+         Dlg.vcxproj -> E:\לימודים\שנה ב\סמסטר א\2-DlgGDI 1\.\Release\Dlg.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/Dlg.exe;#1" /manifest .\Release\Dlg.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Dlg.unsuccessfulbuild".
+         Touching ".\Release\Dlg.lastbuildstate".
+     1>Done Building Project "E:\לימודים\שנה ב\סמסטר א\2-DlgGDI 1\Dlg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.92
